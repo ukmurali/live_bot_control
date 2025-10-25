@@ -1,4 +1,11 @@
+# ✅ Core Streamlit and WebRTC support
 streamlit==1.38.0
 streamlit-webrtc==0.47.7
-opencv-python-headless==4.10.0.84
+
+# ✅ Video/audio support with precompiled wheels
 av==12.0.0
+opencv-python-headless==4.10.0.84
+
+# ✅ Optional extras for your AI/robot control
+numpy
+pillow
