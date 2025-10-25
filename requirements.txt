@@ -1,11 +1,10 @@
-# ✅ Core Streamlit and WebRTC support
 streamlit==1.38.0
 streamlit-webrtc==0.47.7
-
-# ✅ Video/audio support with precompiled wheels
-av==12.0.0
 opencv-python-headless==4.10.0.84
 
-# ✅ Optional extras for your AI/robot control
+# av causes build errors on Streamlit Cloud — use safe precompiled version
+av==10.0.0
+
+# Lightweight dependencies only
 numpy
 pillow
